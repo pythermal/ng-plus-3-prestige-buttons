@@ -173,3 +173,35 @@
 	background: #777777;
 	border: 2px solid #000000;
 }
+.cosmo {
+	color: #ffffff;
+	text-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff, 0 0 5px #ffffff;
+	background: #000000;
+	border: 2px solid #000000;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.cosmo:hover {
+	color: #ffffff;
+	text-shadow: 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff;
+	background: #000000;
+	border: 2px solid #000000;
+}
+.beyond {
+	color: #eeeeee;
+	background: #ffffff;
+	border: 2px solid #eeeeee;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.beyond:hover {
+	color: #aaaaaa;
+	background: #ffffff;
+	border: 2px solid #aaaaaa;
+}
