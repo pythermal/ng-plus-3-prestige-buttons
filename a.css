@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Typewriter;
+    src: url('MonospaceTypewriter.ttf');
+}
 .infinity {
 	color: #FFFFFF;
 	background: #1F1F1F;
