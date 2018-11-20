@@ -103,7 +103,7 @@
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
-.star:hovor {
+.star:hover {
 	color: #ffffff;
 	text-shadow: 0 0 1px #ffdf3f, 0 0 2px #7f6f1f, 0 0 3px #000000;
 	background: radial-gradient(closest-side,#ff5400 0,#ff9021 33%,#ffdf3f 100%);
