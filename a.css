@@ -156,3 +156,20 @@
 	    background-position: 200% 200%;
 	}
 }
+.abstract {
+	color: #000000;
+	text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 4px #000000;
+	background: #777777;
+	border: 2px solid #000000;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.abstract:hover {
+	color: #ffffff;
+	text-shadow: 0 0 3px #ffffff, 0 0 3px #ffffff, 0 0 4px #ffffff;
+	background: #777777;
+	border: 2px solid #000000;
+}
