@@ -1,0 +1,17 @@
+.infinity {
+	color: #FFFFFF;
+	background: #1F1F1F;
+	font-weight: bold;
+	border: 2px solid #B67F33;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.infinitybtn:hover {
+	color: #000000;
+	background: #B67F33;
+	font-weight: bold;
+	border: 2px solid #B67F33;
+	border-radius: 4px;
+}
