@@ -7,11 +7,95 @@
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
-
-.infinitybtn:hover {
+.infinity:hover {
 	color: #000000;
 	background: #B67F33;
+}
+.eternity {
+	color: #b341e0;
+	background: black;
+	border: 2px solid #b341e0;
 	font-weight: bold;
-	border: 2px solid #B67F33;
 	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.eternity:hover {
+	color: #511568;
+	background: white;
+}
+.quantum {
+	color: #32c832;
+	background: #0a640a;
+	border: 2px solid #32c832;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.quantum:hover {
+	background: #32c832;
+	color: #0a640a;
+}
+.ghost {
+	color: #715fff;
+	text-shadow: 0px 0px 3px #f91eff, 0px 0px 3px #bfbfbf;
+	background: #320633;
+	border: 2px solid #f91eff;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.ghost:hover {
+	color: #161333;
+	text-shadow: 0px 0px 3px #f91eff, 0px 0px 3px #bfbfbf;
+	background: #f91eff;
+	border: 2px solid #f91eff;
+}
+.hadron {
+	color: #ffffff;
+	animation: hadronize 1.5s linear infinite;
+	border: 2px solid #1f1f1f;
+	background: radial-gradient(transparent, #000000), repeating-linear-gradient(#990000, #009900, #000099, #990000);
+	background-size: 100% 200%;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.hadron:hover {
+	color: #000000;
+	animation: hadronize 1.5s linear infinite;
+	border: 2px solid #bfbfbf;
+	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
+	font-weight: bold;
+	background: radial-gradient(transparent, #000000), repeating-linear-gradient(#990000, #009900, #000099, #990000);
+	background-size: 100% 200%;
+}
+@keyframes hadronize{ 
+	0%{
+	    background-position: 50% 50%, 0% 0%;
+	}
+	100%{
+	    background-position: 50% 50%, 0% 200%;
+	}
+}
+.star {
+	color: #7f6f1f;
+	text-shadow: 0 0 1px #000000, 0 0 2px #7f7f7f, 0 0 3px #ffffff;
+	background: radial-gradient(closest-side,#ff5400 0,#ff9021 33%,#ffdf3f 100%);
+	border: 2px solid #ffdf3f;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
 }
