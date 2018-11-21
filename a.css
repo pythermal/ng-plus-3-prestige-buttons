@@ -2,6 +2,19 @@
     font-family: Typewriter;
     src: url('MonospaceTypewriter.ttf');
 }
+.normal {
+	color: #000000;
+    background: #F2F2F2;
+	font-weight: bold;
+    border: 2px solid #4980CC;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.normal:hover {
+    color: #FFF;
+    background: #4980CC;
+}
 .infinity {
 	color: #FFFFFF;
 	background: #1F1F1F;
@@ -121,45 +134,39 @@
 	cursor: pointer;
 }
 .universe:hover {
-	color: #ffffff;
-	text-shadow: 0 0 10px #7fbfff, 0 0 10px #7fbfff, 0 0 10px #7fbfff;
-	background: radial-gradient(closest-side,transparent 0,transparent 50%,#000000 100%), linear-gradient(#000000, #3f5f7f);
-	border: 2px solid #3f5f7f;
+	text-shadow: 0 0 9px #7fbfff, 0 0 9px #7fbfff, 0 0 12px #000000;
 }
 .fractal {
 	color: #000000;
 	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
 	animation: fract 3s linear infinite;
 	border: 2px solid #1f1f1f;
-	background: repeating-linear-gradient(90deg,#000764,#206BCB 16%,#EDFFFF 42%,#FFAA00 64.25%,#000200 85.75%,#000764);
+	background: radial-gradient(transparent, #000000), repeating-linear-gradient(90deg,#000764,#206BCB 16%,#EDFFFF 42%,#FFAA00 64.25%,#000200 85.75%,#000764);
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
 	transition-duration: 0.2s;
 	cursor: pointer;
-	background-size: 200% 200%;
+	background-size: 200% 100%;
 }
 
 .fractal:hover {
 	color: #ffffff;
-	animation: fract 3s linear infinite;
 	border: 2px solid #bfbfbf;
 	text-shadow: 0px 0px 3px #000000, 0px 0px 3px #000000;
-	background: repeating-linear-gradient(90deg,#000764,#206BCB 16%,#EDFFFF 42%,#FFAA00 64.25%,#000200 85.75%,#000764);
-	background-size: 200% 200%;
 }
 @keyframes fract{ 
 	0%{
-	    background-position: 0% 0%;
+	    background-position: 0% 0%, 0% 0%;
 	}
 	100%{
-	    background-position: 200% 200%;
+	    background-position: 0% 0%, 200% 200%;
 	}
 }
 .abstract {
 	color: #000000;
-	text-shadow: 0 0 5px #000000, 0 0 5px #000000, 0 0 5px #000000;
-	background: #777777;
+	text-shadow: 0px 0px 3px #000000, 0px 0px 3px #7f7f7f;
+	background: linear-gradient(#000000,#1f1f1f 50%,#000000 100%);
 	border: 2px solid #000000;
 	font-family: Typewriter;
 	font-weight: bold;
@@ -169,13 +176,11 @@
 }
 .abstract:hover {
 	color: #ffffff;
-	text-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff, 0 0 5px #ffffff;
-	background: #777777;
-	border: 2px solid #000000;
+	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff
 }
 .cosmo {
 	color: #ffffff;
-	text-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff, 0 0 5px #ffffff;
+	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
 	background: #000000;
 	border: 2px solid #000000;
 	font-family: Typewriter;
@@ -186,14 +191,13 @@
 }
 .cosmo:hover {
 	color: #ffffff;
-	text-shadow: 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff;
-	background: #000000;
-	border: 2px solid #000000;
+	text-shadow: 0px 0px 9px #ffffff, 0px 0px 9px #ffffff
 }
 .beyond {
-	color: #eeeeee;
+	color: #efefef;
+	text-shadow: 0px 0px 3px #efefef, 0px 0px 3px #efefef;
 	background: #ffffff;
-	border: 2px solid #eeeeee;
+	border: 2px solid #efefef;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
@@ -201,7 +205,6 @@
 	cursor: pointer;
 }
 .beyond:hover {
-	color: #aaaaaa;
-	background: #ffffff;
-	border: 2px solid #aaaaaa;
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #7f7f7f, 0px 0px 3px #7f7f7f;
 }
