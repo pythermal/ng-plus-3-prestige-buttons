@@ -275,7 +275,7 @@
 	border-color: #000000;
 	cursor: pointer;
 }
-.simulation {
+.virtualize {
 	color: #000000;
 	text-shadow: 0px 0px 3px #ffffff;
 	background: linear-gradient(#000000, transparent 50%, #000000 100%), radial-gradient(circle, #ffffff, #3f9fff 50%, #000000 100%);
@@ -285,7 +285,7 @@
 	border-radius: 4px;
 	transition-duration: 0.2s
 }
-.simulation:hover {
+.virtualize:hover {
 	color: #ffffff;
 	text-shadow: 0px 0px 3px #000000;
 	cursor: pointer
