@@ -11,6 +11,7 @@ b {
 	font-family: Typewriter;
 	font-size: 30px
 }
+
 .normal {
 	color: #000000;
     background: #F2F2F2;
@@ -24,6 +25,7 @@ b {
     color: #FFF;
     background: #4980CC;
 }
+
 .infinity {
 	color: #FFFFFF;
 	background: #1F1F1F;
@@ -37,6 +39,7 @@ b {
 	color: #000000;
 	background: #B67F33;
 }
+
 .eternity {
 	color: #b341e0;
 	background: black;
@@ -46,11 +49,11 @@ b {
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
-
 .eternity:hover {
 	color: #511568;
 	background: white;
 }
+
 .quantum {
 	color: #32c832;
 	background: #0a640a;
@@ -61,11 +64,11 @@ b {
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
-
 .quantum:hover {
 	background: #32c832;
 	color: #0a640a;
 }
+
 .ghostold {
 	color: #715fff;
 	text-shadow: 0px 0px 3px #f91eff, 0px 0px 3px #bfbfbf;
@@ -113,6 +116,39 @@ b {
 	}
 }
 
+.ethereal {
+	background: repeating-linear-gradient(#002fbf, transparent 50%, #002fbf 100%), repeating-linear-gradient(90deg, transparent, #3f6fff 50%, transparent 100%), #7f9fff;
+	background-size: 200% 200%;
+	border: 2px solid transparent;
+	border-radius: 4px;
+	color: #003fff;
+	font-family: Typewriter;
+	font-weight: bold;
+	--ts: 0px 0px 0px #003fff;
+	animation: ethereal 5s linear infinite;
+	transition-duration: 0.2s;
+	cursor: pointer
+}
+.ethereal:hover {
+	border-color: #7f9fff;
+	box-shadow: inset 0px 0px 12px 0px white;
+	--ts: 0px 0px 12px #003fff
+}
+@keyframes ethereal { 
+	0%{
+		background-position: 0% 0%;
+		text-shadow: 0px 0px 3px #003fff, var(--ts), 0px 0px 3px black, 0px 0px 6px #003fff
+	}
+	50%{
+		background-position: 100% 100%;
+		text-shadow: 0px 0px 3px #003fff, var(--ts), 0px 0px 3px #003fff, 0px 0px 6px white
+	}
+	100%{
+		background-position: 200% 200%;
+		text-shadow: 0px 0px 3px #003fff, var(--ts), 0px 0px 3px black, 0px 0px 6px #003fff
+	}
+}
+
 .hadron {
 	color: #ffffff;
 	animation: hadronize 1.5s linear infinite;
@@ -125,7 +161,6 @@ b {
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
-
 .hadron:hover {
 	color: #000000;
 	animation: hadronize 1.5s linear infinite;
@@ -143,6 +178,7 @@ b {
 	    background-position: 50% 50%, 0% 200%;
 	}
 }
+
 .star {
 	color: #7f6f1f;
 	text-shadow: 0 0 1px #000000, 0 0 2px #7f7f7f, 0 0 3px #ffffff;
@@ -160,6 +196,7 @@ b {
 	background: radial-gradient(closest-side,#ff5400 0,#ff9021 33%,#ffdf3f 100%);
 	border: 2px solid #ffdf3f;
 }
+
 .universe {
 	color: #7fbfff;
 	text-shadow: 0 0 3px #7fbfff, 0 0 3px #7fbfff, 0 0 4px #000000;
@@ -174,6 +211,7 @@ b {
 .universe:hover {
 	text-shadow: 0 0 9px #7fbfff, 0 0 9px #7fbfff, 0 0 12px #000000;
 }
+
 .fractal {
 	color: #000000;
 	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
@@ -187,7 +225,6 @@ b {
 	cursor: pointer;
 	background-size: 200% 100%;
 }
-
 .fractal:hover {
 	color: #ffffff;
 	border: 2px solid #bfbfbf;
@@ -201,6 +238,7 @@ b {
 	    background-position: 0% 0%, 200% 200%;
 	}
 }
+
 .abstract {
 	color: #000000;
 	text-shadow: 0px 0px 3px #7f7f7f, 0px 0px 3px #ffffff;
@@ -216,6 +254,7 @@ b {
 	color: #ffffff;
 	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff
 }
+
 .cosmo {
 	color: #ffffff;
 	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
@@ -231,6 +270,7 @@ b {
 	color: #ffffff;
 	text-shadow: 0px 0px 9px #ffffff, 0px 0px 9px #ffffff
 }
+
 .beyond {
 	color: #bfbfbf;
 	text-shadow: 0px 0px 3px #bfbfbf, 0px 0px 3px #bfbfbf;
@@ -246,6 +286,7 @@ b {
 	color: #ffffff;
 	text-shadow: 0px 0px 3px #7f7f7f, 0px 0px 3px #7f7f7f;
 }
+
 .meta {
 	color: #ffffff;
 	text-shadow: 0px 0px 3px #000000;
@@ -270,6 +311,7 @@ b {
 	    background-position: 0% 0%, 300% 300%;
 	}
 }
+
 .unknown {
 	background: #fcfcfc;
 	color: #fcfcfc;
@@ -284,6 +326,7 @@ b {
 	border-color: #000000;
 	cursor: pointer;
 }
+
 .virtualize {
 	color: #000000;
 	text-shadow: 0px 0px 3px #ffffff;
@@ -299,6 +342,7 @@ b {
 	text-shadow: 0px 0px 3px #000000;
 	cursor: pointer
 }
+
 .digitize {
 	color: #00ff00;
 	text-shadow: 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000;
@@ -323,6 +367,7 @@ b {
 	    background-position: -20px -40px;
 	}
 }
+
 .infinitize {
 	color: #ffffff;
 	text-shadow: 0px 0px 3px #ffffff;
@@ -338,6 +383,7 @@ b {
 	text-shadow: 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900;
 	cursor: pointer
 }
+
 .timeless {
 	border: 2px solid #000000;
 	box-shadow: inset 0px 0px 12px 0px #ffffff;
@@ -355,6 +401,7 @@ b {
 	text-shadow: 0px 0px 3px #0033cc, 0px 0px 6px #0033cc;
 	cursor: pointer
 }
+
 .continuum {
 	border: 2px solid #3f00ff;
 	box-shadow: inset 0px 0px 12px 0px #7f00ff;
@@ -371,6 +418,7 @@ b {
 	text-shadow: 0px 0px 6px #9f7fff, 0px 0px 3px #9f7fff;
 	cursor: pointer
 }
+
 .omniscient {
 	color: #bfbf00;
 	text-shadow: 0px 0px 6px #bfbf00, 0px 0px 3px #bfbf00;
@@ -384,6 +432,7 @@ b {
 	text-shadow: 0px 0px 6px #ffff00, 0px 0px 3px #ffffff;
 	cursor: pointer
 }
+
 .spiritual {
 	color: #ff3f00;
 	text-shadow: 0px 0px 6px #ff3f00, 0px 0px 3px #000000;
@@ -409,6 +458,7 @@ b {
 	    background-position: 300% 300%;
 	}
 }
+
 .enlighten {
 	border: 2px solid #bfbfbf;
 	box-shadow: inset 0px 0px 12px 0px #bfbfbf;
