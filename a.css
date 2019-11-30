@@ -146,6 +146,38 @@ b {
 	border: 2px solid #ffdf3f;
 }
 
+.ethereal {
+	background: repeating-linear-gradient(#00bfff, transparent 50%, #00bfff 100%), repeating-linear-gradient(90deg, #00dfff, #007fff 50%, #00dfff 100%);
+	background-size: 200% 200%;
+	box-shadow: inset 0px 0px 12px 0px #00bfff;
+	border: 2px solid #00bfff;
+	border-radius: 4px;
+	font-family: Typewriter;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 0px 3px white, 0px 0px 3px black;
+	transition-duration: 0.2s;
+	animation: ethereal 5s linear infinite;
+	cursor: pointer
+}
+.ethereal:hover {
+	border: 2px solid #007fff;
+	box-shadow: inset 0px 0px 12px 0px #007fff;
+	color: #7f9fff;
+	text-shadow: 0px 0px 3px black
+}
+@keyframes ethereal { 
+	0%{
+		background-position: 0% 0%
+	}
+	50%{
+		background-position: 100% 100%
+	}
+	100%{
+		background-position: 200% 200%
+	}
+}
+
 .universe {
 	color: #7fbfff;
 	text-shadow: 0 0 3px #7fbfff, 0 0 3px #7fbfff, 0 0 4px #000000;
@@ -287,34 +319,22 @@ b {
 	text-shadow: 0px 0px 3px #7f7f7f, 0px 0px 3px #7f7f7f;
 }
 
-.ethereal {
-	background: repeating-linear-gradient(#00bfff, transparent 50%, #00bfff 100%), repeating-linear-gradient(90deg, #00dfff, #007fff 50%, #00dfff 100%);
-	background-size: 200% 200%;
-	box-shadow: inset 0px 0px 12px 0px #00bfff;
-	border: 2px solid #00bfff;
-	border-radius: 4px;
+.singular {
+	color: #7f7f7f;
+	text-shadow: 0px 0px 3px #3f3f3f, 0px 0px 3px #3f3f3f;
+	background: #000000;
+	box-shadow: inset 0px 0px 12px 0px #3f3f3f;
+	border: 2px solid #3f3f3f;
 	font-family: Typewriter;
 	font-weight: bold;
-	color: white;
-	text-shadow: 0px 0px 3px white, 0px 0px 3px black;
+	border-radius: 4px;
 	transition-duration: 0.2s;
-	animation: ethereal 5s linear infinite;
-	cursor: pointer
+	cursor: pointer;
 }
-.ethereal:hover {
-	border: 2px solid #007fff;
-	box-shadow: inset 0px 0px 12px 0px #007fff;
-	color: #7f9fff;
-	text-shadow: 0px 0px 3px black
-}
-@keyframes ethereal { 
-	0%{
-		background-position: 0% 0%
-	}
-	50%{
-		background-position: 100% 100%
-	}
-	100%{
-		background-position: 200% 200%
-	}
+.singular:hover {
+	background: #3f3f3f;
+	box-shadow: inset 0px 0px 12px 0px #000000;
+	border-color: #000000;
+	color: #bfbfbf;
+	text-shadow: 0px 0px 3px #7f7f7f, 0px 0px 3px #7f7f7f;
 }
