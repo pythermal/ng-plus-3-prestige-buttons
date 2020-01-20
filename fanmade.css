@@ -43,3 +43,21 @@
 	color: #ff7f7f;
 	cursor: pointer
 }
+
+.cosmic {
+	background: #1f3f3f;
+	border: 2px solid #5fbfbf;
+	border-radius: 4px;
+	box-shadow: inset 0px 0px 24px 0px #3f7f7f, 0px 0px 0px 0px #3f7f7f;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px #5fbfbf, 0px 0px 6px black;
+	color: #5fbfbf;
+	transition-duration: 0.2s;
+}
+.cosmic:hover {
+	border-color: #8fbfbf;
+	color: #8fbfbf;
+	box-shadow: inset 0px 0px 24px 0px #3f7f7f, 0px 0px 12px 0px #8fbfbf;
+	text-shadow: 0px 0px 12px #7fbfbf, 0px 0px 6px white;
+	cursor: pointer
+}
