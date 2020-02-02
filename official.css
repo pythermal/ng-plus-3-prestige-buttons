@@ -97,10 +97,10 @@
 	position: absolute;
 	background: conic-gradient(#ff0000, #00ff00, #0000ff, #ff0000);
 	background-size: contain;
-	height: 150px;
-	width: 150px;
-	top: calc(-75px + 50%);
-	left: calc(-75px + 50%);
+	height: 100vmax;
+	width: 100vmax;
+	top: calc(-50vmax + 50%);
+	left: calc(-50vmax + 50%);
 	z-index: -1;
 	animation: hadronize 5s linear infinite
 }
