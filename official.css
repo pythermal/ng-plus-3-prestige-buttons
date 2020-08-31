@@ -303,3 +303,33 @@
 	color: #ffffff;
 	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff
 }
+
+@keyframes entropic {
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: 600% 0%;
+	}
+}
+
+.entropic {
+	color: #000000;
+	text-shadow: 0px 0px 3px #7f7f7f, 0px 0px 3px #ff0000;
+	background: radial-gradient(#000000, transparent, #333333), linear-gradient(90deg, #ff0000, #000000, #000000, #000000);
+	background-size: 200% 100%;
+	border: 2px solid #000000;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	animation: entropic 6s linear infinite;
+	cursor: pointer;
+}
+.entropic:hover {
+	color: #810000;
+	background: linear-gradient(#000000,#ff0000 50%,#000000 100%);
+	text-shadow: 0px 0px 3px #ff7700, 0px 0px 3px #ff0000;
+	box-shadow: 0px 0px 7px #111111, 0px 0px 12px #ff0000;
+	animation: entropic-hover 6s ease-in-out infinite;
+}
